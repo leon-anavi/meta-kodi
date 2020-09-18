@@ -69,12 +69,12 @@ DEPENDS += " \
             zlib \
           "
 
-SRCREV = "8e967df9218279618bcbfa8a898d8f80f7b4e449"
+SRCREV = "45686bddb1f308ec580f97eb4b228b8a6606b320"
 
 # 'patch' doesn't support binary diffs
 PATCHTOOL = "git"
 
-PV = "18.6+git${SRCPV}"
+PV = "18.8+git${SRCPV}"
 SRC_URI = "git://github.com/xbmc/xbmc.git;protocol=https;branch=Leia \
            \
            file://0001-Add-support-for-musl-triplets.patch \
