@@ -14,7 +14,7 @@ SuccessExitStatus=0 1
 
 IOSchedulingClass=realtime
 IOSchedulingPriority=0
-
+Environment=DEBUG=yes
 ExecStart=/usr/bin/kodi-standalone
 
 [Install]
